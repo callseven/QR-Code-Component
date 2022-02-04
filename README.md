@@ -1,12 +1,9 @@
-# Desafio Criar Profile Card Component Challenge Hub 
-link> https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-Z8nP4mZHQ
+# Desafio Criar QR Code Component Challenge Hub 
+link> https://www.frontendmentor.io/challenges/qr-code-component-iux_sIO_H
 
 Minha solução:
 
-![desktop](https://user-images.githubusercontent.com/7409421/149055675-b6ab8a03-ac2a-44b5-9024-debff6083d5a.png)
-
-![mobile](https://user-images.githubusercontent.com/7409421/149055681-83900f76-0bc5-46f2-8f71-30df3e3ac8db.png)
-
+![Desktop Mobile](https://user-images.githubusercontent.com/7409421/152618230-d6b79cc6-869f-4756-865d-420aa4f46901.png)
 
 ## Bem-vindo! - Welcome! 👋
 

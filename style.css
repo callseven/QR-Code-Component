@@ -1,0 +1,308 @@
+* {
+    margin: 0;
+}
+
+html,
+body {
+    --White: hsl(0, 0%, 100%);
+    --LightGray: hsl(212, 45%, 89%);
+    --GrayishBlue: hsl(220, 15%, 55%);
+    --DarkBlue: hsl(218, 44%, 22%);
+    --Paleblue: hsl(225, 100%, 94%);
+    height: 100%;
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    display: grid;
+    place-items: center;
+    background: var(--LightGray);
+    color: var(--DarkBlue);
+}
+
+main {
+    margin-top: 150px;
+    max-width: 300px;
+    max-height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 16px 15px;
+    box-shadow: 0px 1px 19px 4px rgba(139, 139, 139, 0.188);
+    border-radius: 19px;
+    background-color: #fff;
+}
+
+h1 {
+    font-size: 1.6rem;
+    margin-bottom: 1.0rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+
+p {
+    width: 259px;
+    margin-top: 1rem;
+    margin-left: 20px;
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: var(--GrayishBlue);
+    text-align: center;
+}
+
+.tittle {
+    width: 350px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.plan {
+    color: var(---Desaturatedblue);
+    background-color: var(---Verypaleblue);
+    border-radius: 10px;
+    margin-top: 30px;
+    display: flex;
+    gap: 7px;
+    width: 350px;
+    height: 90px;
+}
+
+.qrw span>img {
+    width: 47px;
+    height: 47px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.plan :nth-child(2) {
+    color: var(---Darkblue);
+    font-size: 16px;
+    font-weight: 600;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 16px;
+}
+
+.plan p:nth-child(3) {
+    margin-top: 45px;
+    margin-left: 90px;
+    position: absolute;
+}
+
+.plan p:nth-child(4) {
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+.plan a {
+    text-decoration: underline;
+    font-size: 14px;
+    color: var(--Brightblue);
+    font-weight: 700;
+}
+
+.plan a:hover {
+    text-decoration: none;
+    font-size: 14px;
+    color: var(---Desaturatedblue);
+    font-weight: 700;
+}
+
+.pay {
+    background-color: var(--Brightblue);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 15px;
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 35px;
+    width: 350px;
+    box-shadow: 0px 14px 20px 4px var(--GrayishBlue);
+}
+
+.pay:hover {
+    background-color: hsl(245, 75%, 52%, .7);
+    cursor: pointer;
+}
+
+.cancel {
+    align-items: center;
+    text-align: center;
+    padding: 5px 0 30px;
+    width: 300px;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.cancel a:hover {
+    color: black;
+}
+
+.qr>img {
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 0px;
+    object-fit: cover;
+}
+
+a {
+    color: var(--White);
+    text-decoration: none;
+}
+
+footer {
+    color: var(--Brightblue);
+    padding: 30px 0 50px 0;
+    font-size: 12px;
+}
+
+footer a {
+    color: var(---Verypaleblue);
+}
+
+footer a:hover {
+    color: var(---Desaturatedblue);
+    font-weight: 700;
+}
+
+
+/* medias */
+
+
+/* DESKTOP */
+
+@media (min-width:3440px) {
+    body {
+        display: grid;
+        place-items: center;
+        background: var(--Paleblue);
+        color: var(--White);
+        background-image: url(images/pattern-background-mobile.svg);
+        background-size: 90rem;
+        background-repeat: no-repeat;
+    }
+    main {
+        margin-top: 100px;
+        max-width: 400px;
+        max-height: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 0 0 50px;
+        background-color: #fff;
+        box-shadow: 0px 10px 19px 4px rgb(0, 0, 0);
+        border-radius: 19px;
+    }
+    h1 {
+        font-size: 1.8rem;
+        margin-bottom: 1.0rem;
+        margin-top: 2.8rem;
+        text-align: center;
+    }
+    p {
+        margin-top: 1.3rem;
+        color: var(---Desaturatedblue);
+    }
+    .tittle {
+        width: 350px;
+        text-align: center;
+        line-height: 25px;
+    }
+    .plan {
+        color: var(---Desaturatedblue);
+        background-color: var(---Verypaleblue);
+        border-radius: 10px;
+        margin-top: 30px;
+        display: flex;
+        gap: 7px;
+        width: 350px;
+        height: 90px;
+    }
+    .plan span>img {
+        width: 47px;
+        height: 47px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+    .plan :nth-child(2) {
+        color: var(---Darkblue);
+        font-size: 16px;
+        font-weight: 600;
+        width: 100px;
+        margin-top: 20px;
+        margin-left: 16px;
+    }
+    .plan p:nth-child(3) {
+        margin-top: 45px;
+        margin-left: 90px;
+        position: absolute;
+    }
+    .plan p:nth-child(4) {
+        margin-top: 30px;
+        margin-left: 80px;
+    }
+    .plan a {
+        text-decoration: underline;
+        font-size: 14px;
+        color: var(--Brightblue);
+        font-weight: 700;
+    }
+    .plan a:hover {
+        text-decoration: none;
+        font-size: 14px;
+        color: var(---Desaturatedblue);
+        font-weight: 700;
+    }
+    .pay {
+        background-color: var(--Brightblue);
+        color: #fff;
+        font-size: 16px;
+        font-weight: 700;
+        text-align: center;
+        padding-top: 15px;
+        margin-top: 30px;
+        border-radius: 10px;
+        height: 35px;
+        width: 350px;
+        box-shadow: 0px 14px 20px 4px rgba(0, 18, 176, 0.164);
+    }
+    .pay:hover {
+        background-color: hsl(245, 75%, 52%, .7);
+        cursor: pointer;
+    }
+    .cancel {
+        align-items: center;
+        text-align: center;
+        padding: 5px 0 30px;
+        width: 350px;
+        font-size: 15px;
+        font-weight: 800;
+    }
+    .cancel a:hover {
+        color: black;
+    }
+    .topper>img {
+        border-radius: 20px 20px 0 0;
+        width: 450px;
+        margin-left: -50px;
+        object-fit: cover;
+    }
+    a {
+        color: var(--White);
+        text-decoration: none;
+    }
+    footer {
+        color: var(--Brightblue);
+        padding: 30px 0 50px 0;
+        font-size: 12px;
+    }
+    footer a {
+        color: var(---Verypaleblue);
+    }
+    footer a:hover {
+        color: var(---Desaturatedblue);
+        font-weight: 700;
+    }
+}
